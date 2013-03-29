@@ -1,0 +1,482 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    font-family: Helvetica;
+    color: #fff;
+    line-height: 1.4;
+    background-color: #000;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+ul {
+    list-style-type: none;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {
+    font-family: 'OratorStd';
+    src: url('/OratorStd.eot') format('eot'),
+         url('/OratorStd.otf') format('otf'),
+         url('/OratorStd.ttf') format('truetype'),
+         url('/OratorStd.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+    border: 0px;
+}
+
+a:active {
+    color: #fff;
+    text-decoration: none;
+    border: 0px;
+}
+
+a:visited {
+    color: #fff;
+    text-decoration: none;
+    border: 0px;
+}
+
+a:hover {
+    color: #66efff;
+    text-decoration: none;
+    border: 0px;
+}
+
+#container {
+    width: 1400px;
+    margin: 0 auto;
+    z-index: 0;
+    background-image:url('/img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#header_wrapper {
+    position: fixed;
+    width: 1400px;
+    max-width: 100%;
+    min-height: 88px;
+    margin: 0 auto;
+    background-color: #000;
+    z-index: 2;
+    background-image:url('/img/header_left.jpg');
+    background-repeat: no-repeat;
+    background-size: 700px 88px;
+    background-position: 0 3px;
+}
+
+#header_left {
+    position: relative;
+    float: right;
+    background-color: #000;
+    z-index: 2;
+    clear: none;
+}
+
+#header_right {
+    position: relative;
+    float: right;
+    clear: none;
+    background-color: #000;
+    z-index: 2;
+    clear: none;
+}
+
+.nav {
+    position: relative;
+    clear: none;
+    float: left;
+    font-family: OratorStd, Helvetica;
+    font-size: 1.3em;
+    line-height: 1.1em;
+    text-align: right;
+    letter-spacing: 2px;
+    margin-top: 15px;
+}
+
+ul.nav {
+    padding-left: 5px;
+}
+
+ul.social {
+    margin-top: 23px;
+    padding-left: 10px;
+}
+
+.social li {
+    padding-bottom: 10px;
+}
+
+#home {
+    width: 100%;
+    min-height: 1000px;
+}
+
+#video {
+    position: relative;
+    float: right;
+    top: 270px;
+    right: 45px;
+    width: 640px;
+    height: 360px;
+    background-color: #000;
+    z-index: 1;
+}
+
+#synopsis {
+    width: 100%;
+    min-height: 975px;
+}
+
+#synopsis_text {
+    position: relative;
+    z-index: 1;
+    top: 258px;
+    left: 326px;
+    width: 775px;
+    height: 400px;
+    font-size: 1.4em;
+    line-height: 1.6em;
+}
+
+#download {
+    width: 100%;
+    min-height: 1000px;
+}
+
+#home_hotspot {
+    position: relative;
+    float: right;
+    width: 74px;
+    height: 32px;
+    right: -398px;
+    top: 893px;
+    z-index: 1;
+}
+
+#home_hotspot .hotspot {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#synopsis_hotspot {
+    position: relative;
+    float: right;
+    width: 74px;
+    height: 32px;
+    right: 241px;
+    top: 471px;
+    z-index: 1;
+}
+
+#synopsis_hotspot .hotspot {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#download_hotspot {
+    position: relative;
+    float: right;
+    width: 74px;
+    height: 32px;
+    right: 241px;
+    top: 891px;
+    z-index: 1;
+}
+
+#download_hotspot .hotspot {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+/* Default wide-screen styles */
+
+@media all and (max-width: 1366px) {
+    #container {
+        width: 1263px;
+    }
+
+    #header_wrapper {
+        width: 1263px;
+        background-size: 605px 78px;
+        min-height: 78px;
+    }
+
+    .nav {
+        font-size: 1.1em;
+        line-height: 1.1em;
+    }
+
+    .social {
+        font-size: .9em;
+        line-height: .9em;
+    }
+
+    ul.social {
+        margin-top: 18px;
+    }
+
+    .social li {
+        padding-bottom: 7px;
+    }
+
+    #home {
+        min-height: 900px;
+    }
+
+    #video {
+        float: right;
+        top: 240px;
+        right: 26px;
+        width: 600px;
+        height: 337px;
+    }
+
+    #synopsis {
+        min-height: 920px;
+    }
+
+    #synopsis_text {
+        top: 238px;
+        left: 300px;
+        width: 690px;
+        height: 397px;
+        font-size: 1.2em;
+        line-height: 1.65em;
+    }
+
+    #download {
+        min-height: 845px;
+    }
+
+    #home_hotspot {
+        width: 67px;
+        height: 29px;        
+        right: -382px;
+        top: 805px;
+    }
+
+    #home_hotspot .hotspot {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    #synopsis_hotspot {
+        width: 67px;
+        height: 29px;
+        right: 218px;
+        top: 391px;
+    }
+
+    #synopsis_hotspot .hotspot {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    #download_hotspot {
+        width: 67px;
+        height: 29px;
+        right: 218px;
+        top: 766px;
+    }
+
+    #download_hotspot .hotspot {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    /* styles for narrow desktop browsers and iPad landscape */
+
+    #container {
+        width: 808px;
+        background-position: 0 15px;
+    }
+
+    #header_wrapper {
+        width: 808px;
+        background-size: 525px 66px;
+        min-height: 66px;
+    }
+
+    .nav {
+        font-size: .970em;
+        line-height: 1.1em;
+    }
+
+    .social {
+        font-size: .1em;
+        line-height: 1.1em;
+    }
+
+    ul.social {
+        margin-top: 14px;
+    }
+
+    .social li {
+        padding-bottom: 5px;
+    }
+
+    #home {
+        min-height: 610px;
+    }
+
+    #video {
+        float: right;
+        top: 170px;
+        right: 18px;
+        width: 380px;
+        height: 213px;
+    }
+
+    #video img {
+        width: 335px;
+        height: 204px;
+    }
+
+    #synopsis {
+        min-height: 585px;
+    }
+
+    #synopsis_text {
+        top: 135px;
+        left: 189px;
+        width: 445px;
+        height: 397px;
+        font-size: .75em;
+        line-height: 1.70em;
+    }
+
+    #download {
+        min-height: 550px;
+    }
+
+    #home_hotspot {
+        width: 43px;
+        height: 19px;
+        right: -241px;
+        top: 529px;
+    }
+
+    #home_hotspot .hotspot {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    #synopsis_hotspot {
+        width: 43px;
+        height: 19px;
+        right: 139px;
+        top: 87px;
+    }
+
+    #synopsis_hotspot .hotspot {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+    #download_hotspot {
+        width: 43px;
+        height: 19px;
+        right: 139px;
+        top: 474px;
+    }
+
+    #download_hotspot .hotspot {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    }
+
+}
+
+@media all and (max-width: 768px) {
+    /* styles for narrower desktop browsers and iPad portrait */
+
+}
+
+@media all and (max-width: 480px) {
+    /* styles for iPhone/Android landscape (and really narrow browser windows) */
+
+
+}
+
+@media all and (max-width: 320px) {
+    /* styles for iPhone/Android portrait */
+
+
+}
